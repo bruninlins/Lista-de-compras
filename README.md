@@ -113,4 +113,4 @@ Este projeto não requer instalação de dependências externas ou servidores. A
 
 <p>Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.</p>
 
-<p>Você tambem pode acessar o site por aqui: </p>
+<p>Você tambem pode acessar o site por aqui:   <a href="https://lista-de-compras-zeta-two.vercel.app/"> Lista de compras</a></p>

@@ -17,7 +17,7 @@
 body {
   background: var(--degrade-azul);
   background-repeat: no-repeat;
-  height: 100vh;
+  height: auto 0;
 
   display: flex;
   flex-direction: column;
@@ -37,6 +37,7 @@ main {
 
   align-items: center;
   border-radius: 16px;
+  height: auto;
 }
 
 h2 {
@@ -150,4 +151,26 @@ ul {
 
 .container-lista {
   width: 100%;
+}
+
+@media (max-width: 1200px){
+
+  body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+  }
+
+  main{
+    padding: 2em;
+    margin: auto 0;
+    height: auto;
+    width: 95%;
+    overflow-y: scroll;
+  }
+  
 }

@@ -17,7 +17,7 @@
 body {
   background: var(--degrade-azul);
   background-repeat: no-repeat;
-  height: auto 0;
+  height: 100vh 0;
 
   display: flex;
   flex-direction: column;

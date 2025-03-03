@@ -17,11 +17,14 @@
 body {
   background: var(--degrade-azul);
   background-repeat: no-repeat;
-  height: 100vh 0;
+  height: 100vh;
+  width: 100vw;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: -5em;
+  margin-bottom: 5em;
 }
 
 main {
@@ -30,14 +33,16 @@ main {
 
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 26px;
 
   width: 440px;
   padding: 56px;
 
   align-items: center;
-  border-radius: 16px;
+  border-radius: 10px;
   height: auto;
+  overflow-y: scroll;
+
 }
 
 h2 {
